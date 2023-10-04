@@ -1,11 +1,11 @@
-# 🗃 types-arena / @thefirstspine/types-arena
+# 🗃 types-matches / @thefirstspine/types-matches
 
-Types definition for Arena resources.
+Types definition for matches resources.
 
 ## Install
 
 ```bash
-npm i @thefirstspine/types-arena@latest
+npm i @thefirstspine/types-matches@latest
 ```
 
 ## Documentation
@@ -31,7 +31,3 @@ npm run lint
 ```bash
 npm publish
 ```
-
-## License
-
-TFS Platform is NOT licensed. You are free to download, view, run the repository. You are NOT allowed to redistribute this project for both commercial and non-commercial use. Deal with it.
