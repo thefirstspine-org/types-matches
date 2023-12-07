@@ -8,7 +8,6 @@ export interface IApiGetGameResponse {
     cardsInHand: {[key: number]: number},
     cardsInDeck: {[key: number]: number},
   };
-  theme: string;
   modifiers: string[];
   result?: IGameResult[];
 }
