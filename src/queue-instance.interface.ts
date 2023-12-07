@@ -1,3 +1,5 @@
+import { IQueueUser } from "./queue-user.interface";
+
 /**
  * A queue instance is a queue created in Arena the users can join.
  */
@@ -11,7 +13,7 @@ export interface IQueueInstance {
   /**
    * The user joined.
    */
-  users: number[];
+  queueUsers: IQueueUser[];
 
   /**
    * The modifiers than can modify the game instance. Uset
