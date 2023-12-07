@@ -11,7 +11,7 @@ export interface IQueueInstance {
   /**
    * The user joined.
    */
-  gameUsers: number[];
+  users: number[];
 
   /**
    * The modifiers than can modify the game instance. Uset
