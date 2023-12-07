@@ -1,3 +1,3 @@
 export interface IApiCreateQueueParams {
-  gameTypeId: string;
+  key: string;
 }

@@ -8,11 +8,9 @@ import { IGameResult } from "./game-result.interface";
 export interface IGameInstance {
   id: number;
   status: 'active'|'ended'|'closed'|'conceded';
-  theme: string;
   modifiers: string[];
   expirationTimeModifier?: number;
-  users: IGameUser[];
-  gameTypeId: string;
+  gameUsers: IGameUser[];
   cards: IGameCard[];
   actions: {
     current: IGameAction<IGameInteraction>[],

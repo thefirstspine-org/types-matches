@@ -22,7 +22,7 @@ export function isRespondToActionParams(toBeDetermined: any): toBeDetermined is 
 }
 
 export function isCreateQueueParams(toBeDetermined: any): toBeDetermined is IApiCreateQueueParams {
-  return toBeDetermined.gameTypeId;
+  return toBeDetermined.key;
 }
 
 export function isGetQueueParams(toBeDetermined: any): toBeDetermined is IApiGetQueueParams {

@@ -1,4 +1,4 @@
-import { ICardCoords, cardLocation, ICard, ICardStat } from "@thefirstspine/types-rest";
+import { ICardCoords, cardLocation, ICard, ICardStat } from "@thefirstspine/types-game";
 
 export interface IGameCard {
   id: string;

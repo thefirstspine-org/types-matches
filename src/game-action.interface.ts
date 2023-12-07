@@ -1,4 +1,4 @@
-import { ILocalized } from '@thefirstspine/types-rest';
+import { ILocalized } from '@thefirstspine/types-game';
 import { IGameInteraction } from './game-interaction.interface';
 
 export interface IGameAction<T extends IGameInteraction> {
