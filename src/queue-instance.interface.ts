@@ -16,12 +16,6 @@ export interface IQueueInstance {
   queueUsers: IQueueUser[];
 
   /**
-   * The modifiers than can modify the game instance. Uset
-   * or empty means no modifier.
-   */
-  modifiers?: string[];
-
-  /**
    * The speed of the instances created from the queue.
    * Lower value means quicker expiration times.
    */

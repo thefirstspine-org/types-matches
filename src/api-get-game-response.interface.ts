@@ -8,6 +8,5 @@ export interface IApiGetGameResponse {
     cardsInHand: {[key: number]: number},
     cardsInDeck: {[key: number]: number},
   };
-  modifiers: string[];
   result?: IGameResult[];
 }

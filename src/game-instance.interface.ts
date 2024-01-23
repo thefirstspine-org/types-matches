@@ -9,7 +9,6 @@ export interface IGameInstance {
   id: number;
   queueKey: string;
   status: 'active'|'ended'|'closed'|'conceded';
-  modifiers: string[];
   expirationTimeModifier?: number;
   gameUsers: IGameUser[];
   cards: IGameCard[];
