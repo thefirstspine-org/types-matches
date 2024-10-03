@@ -8,5 +8,6 @@ export interface IApiGetGameResponse {
     cardsInHand: {[key: number]: number},
     cardsInDeck: {[key: number]: number},
   };
+  queue: string;
   result?: IGameResult[];
 }

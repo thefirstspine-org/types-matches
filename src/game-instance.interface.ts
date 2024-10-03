@@ -16,6 +16,7 @@ export interface IGameInstance {
     current: IGameAction<IGameInteraction>[],
     previous: IGameActionPassed<IGameInteraction>[],
   };
+  queue: string;
   result?: IGameResult[];
   realm?: string;
 }
