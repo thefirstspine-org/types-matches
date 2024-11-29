@@ -5,8 +5,14 @@ export interface IApiGetGameResponse {
   status: 'active'|'ended'|'closed'|'conceded';
   users: number[],
   stats: {
-    cardsInHand: {[key: number]: number},
-    cardsInDeck: {[key: number]: number},
+    cardsInHand: {
+      user: number,
+      value: number,
+    }[],
+    cardsInDeck: {
+      user: number,
+      value: number,
+    }[],
   };
   queue: string;
   result?: IGameResult[];
