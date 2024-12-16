@@ -1,3 +1,4 @@
+import { IGameCard } from "./game-card.interface";
 import { IQueueUser } from "./queue-user.interface";
 
 /**
@@ -30,4 +31,9 @@ export interface IQueueInstance {
    * Expiration date. No expiration on unset field.
    */
   expiresAt?: number;
+
+  /**
+   * The cards that will be added in the intance by default.
+   */
+  cards: IGameCard[];
 }
