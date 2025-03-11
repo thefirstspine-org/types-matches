@@ -1,17 +1,17 @@
 {
   "name": "@thefirstspine/types-matches",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Types definition for matches resources.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "devDependencies": {
-    "@thefirstspine/types-game": "^1.0.1",
-    "@types/node": "^22.10.2",
+    "@thefirstspine/types-game": "^1.0.2",
+    "@types/node": "^22.13.10",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
     "eslint": "^8.55.0",
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.2"
   },
   "scripts": {
     "build": "rimraf ./lib && tsc -b",
