@@ -36,4 +36,9 @@ export interface IQueueInstance {
    * The cards that will be added in the intance by default.
    */
   cards: IGameCard[];
+
+  /**
+   * The coords of the players
+   */
+  coords: { x: number; y: number }[];
 }
