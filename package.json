@@ -1,12 +1,12 @@
 {
   "name": "@thefirstspine/types-matches",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "Types definition for matches resources.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "devDependencies": {
     "@thefirstspine/types-game": "^1.1.0",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.5.2",
     "@typescript-eslint/eslint-plugin": "^8.42.0",
     "@typescript-eslint/parser": "^8.42.0",
     "eslint": "^9.34.0",
