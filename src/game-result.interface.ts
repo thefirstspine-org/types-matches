@@ -1,4 +1,4 @@
 export interface IGameResult {
-  user: string;
+  user: number;
   result: 'win'|'lose'|'kick'|'concede';
 }

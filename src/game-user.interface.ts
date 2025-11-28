@@ -1,6 +1,6 @@
 import { ICard } from '@thefirstspine/types-game';
 
 export interface IGameUser {
-  user: string;
+  user: number;
   cards: ICard[];
 }
