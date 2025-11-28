@@ -3,7 +3,7 @@ import { ICardCoords, cardLocation, ICard, ICardStat } from "@thefirstspine/type
 export interface IGameCard {
   id: string;
   coords?: ICardCoords;
-  user: number;
+  user: string;
   location: cardLocation;
   card: ICard;
   currentStats?: ICardStat;
