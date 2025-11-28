@@ -7,7 +7,7 @@ export interface IGameAction<T extends IGameInteraction> {
   description: ILocalized;
   createdAt: number;
   expiresAt?: number;
-  user: number;
+  user: string;
   priority: number;
   interaction: T,
   response?: {
