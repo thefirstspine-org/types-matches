@@ -7,6 +7,7 @@ import { IGameResult } from "./game-result.interface";
 
 export interface IGameInstance {
   id: number;
+  createdAt: Date;
   queueKey: string;
   status: 'active'|'ended'|'closed'|'conceded';
   expirationTimeModifier?: number;
