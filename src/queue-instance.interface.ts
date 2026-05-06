@@ -41,4 +41,9 @@ export interface IQueueInstance {
    * The coords of the players
    */
   coords: { x: number; y: number }[];
+
+  /**
+   * The coords of the players
+   */
+  instantMatchmaking: boolean;
 }
